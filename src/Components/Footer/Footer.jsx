@@ -3,23 +3,23 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="mt-20">
-      <footer className="footer p-10 bg-cyan-600 text-white text-lg">
-        <nav>
+    <div className="mt-20">
+      <footer className="grid grid-cols-2 md:grid-cols-3 p-6 md:p-10  bg-cyan-600 text-white text-lg">
+        <nav className="flex flex-col">
           <header className="footer-title">Services</header>
-          <a className="link link-hover">Branding</a>
-          <a className="link link-hover">Design</a>
-          <a className="link link-hover">Marketing</a>
-          <a className="link link-hover">Advertisement</a>
+          <a className="link link-hover">Weddings</a>
+          <a className="link link-hover">Birthdays</a>
+          <a className="link link-hover">Anniversaries</a>
+          <a className="link link-hover">Holiday</a>
         </nav>
-        <nav>
+        <nav className="flex flex-col text-right md:text-left">
           <header className="footer-title">Company</header>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
           <a className="link link-hover">Jobs</a>
           <a className="link link-hover">Press kit</a>
         </nav>
-        <nav>
+        <nav className="mt-6 md:mt-0 text-center md:text-left mx-auto col-span-2 md:col-auto">
           <header className="footer-title">Social</header>
           <div className="grid grid-flow-col gap-4">
             <a className="text-3xl">
@@ -34,7 +34,7 @@ const Footer = () => {
           </div>
         </nav>
       </footer>
-    </footer>
+    </div>
   );
 };
 

@@ -14,7 +14,7 @@ const Card = ({ event }) => {
             <h1 className="mb-5 text-xl md:text-3xl font-bold">{name}</h1>
             <p className="mb-5 text-lg md:text-xl font-semibold">{price}</p>
             <p className="mb-4 font-medium">{description}</p>
-            <button className="btn btn-primary bg-cyan-700 hover:bg-sky-900">Get Started</button>
+            <button className="btn btn-primary bg-cyan-700 hover:bg-sky-900 px-8">Details</button>
           </div>
         </div>
       </div>
