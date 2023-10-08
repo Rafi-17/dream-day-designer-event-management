@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "name": "Weddings",
+      "image": "https://i.ibb.co/mNDdYB3/prepared-wedding-hall.jpg",
+      "price": "$500 - $5000",
+      "description": "Create magical moments on your special day with our personalized wedding planning services. From venue selection to decor and catering, we handle everything."
+    },
+    {
+      "id": 2,
+      "name": "Birthday Parties",
+      "image": "https://i.ibb.co/X3kSCxm/tender-hydrangea-centerpiece-wine-glasses-blurred-background.jpg",
+      "price": "$200 - $1500",
+      "description": "Celebrate birthdays in style with our themed party packages. We arrange everything from invitations and decorations to fun activities and delicious cakes."
+    },
+    {
+      "id": 3,
+      "name": "Anniversaries",
+      "image": "https://i.ibb.co/KqsjGD9/white-path-leads-wedding-altar-put-somewhere-mountains.jpg",
+      "price": "$300 - $2000",
+      "description": "Commemorate your love story with a memorable anniversary celebration. Our services include elegant decor, gourmet dining, and heartfelt surprises."
+    },
+    {
+      "id": 4,
+      "name": "Engagement Parties",
+      "image": "https://i.ibb.co/5BGGfVq/man-putting-ring-hand-woman.jpg",
+      "price": "$250 - $1800",
+      "description": "Mark the beginning of your journey together with a stylish engagement party. We handle venue arrangements, entertainment, and delightful catering."
+    },
+    {
+      "id": 5,
+      "name": "Retirement Parties",
+      "image": "https://i.ibb.co/J5BZtGW/happy-business-people-opening-bottle-champagne-while-celebrating-office-party.jpg",
+      "price": "$150 - $1200",
+      "description": "Bid farewell to a cherished colleague or loved one with a memorable retirement party. We organize heartfelt speeches, entertainment, and customized gifts."
+    },
+    {
+      "id": 6,
+      "name": "Baby Showers",
+      "image": "https://i.ibb.co/QMYKVDz/beautiful-baby-shower-concept-with-copy-space.jpg",
+      "price": "$150 - $1000",
+      "description": "Welcome the newest member of the family with a joyous baby shower. Our services include adorable themes, games, and delightful treats."
+    },
+    {
+      "id": 7,
+      "name": "Graduation Parties",
+      "image": "https://i.ibb.co/5KNZczb/three-happy-international-graduate-friends-greeting-university-campus-graduation-robes-with-diploma.jpg",
+      "price": "$200 - $1500",
+      "description": "Celebrate academic achievements with a lively graduation party. We provide themed decorations, music, and a fun-filled atmosphere."
+    },
+    {
+      "id": 8,
+      "name": "Holiday Gatherings",
+      "image": "https://i.ibb.co/5910Lg0/people-dancing-party-23-2148231993.jpg",
+      "price": "$250 - $2000",
+      "description": "Make your holiday season memorable with our festive gathering services. We handle decorations, catering, and entertainment for a joyful celebration."
+    }
+  ]
+  

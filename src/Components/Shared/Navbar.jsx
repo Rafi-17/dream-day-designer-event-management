@@ -13,7 +13,7 @@ const Navbar = () => {
 </>
 
   return (
-    <nav className="px-3 lg:pb-8 shadow-lg">
+    <nav className="px-3 pb-8 shadow-lg">
         <div className="flex justify-between items-center">
           <h2 className="font-bold text-3xl text-cyan-600">Social Events</h2>
           
