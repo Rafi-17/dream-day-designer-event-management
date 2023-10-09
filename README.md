@@ -1,5 +1,5 @@
 # Website nname: DreamDayDesigners
-# Live site: 
+# Live site: https://social-event-management-a8717.web.app/
 
 # Features:
 * There are six sections in the homepage: navbar, banner, services, planning, customer review and footer.
