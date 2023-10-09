@@ -4,56 +4,71 @@
       "name": "Weddings",
       "image": "https://i.ibb.co/mNDdYB3/prepared-wedding-hall.jpg",
       "price": "$500 - $5000",
-      "description": "Create magical moments on your special day with our personalized wedding planning services. From venue selection to decor and catering, we handle everything."
+      "description": "Create magical moments on your special day with our personalized wedding planning services. From venue selection to decor and catering, we handle everything.",
+      "detailed_description": "Our wedding planning services are designed to make your special day truly magical. We start with an in-depth consultation to understand your dreams and preferences. Our dedicated team of experts will guide you through every step, from selecting the perfect venue to designing breathtaking decor and creating a menu that tantalizes the taste buds. We focus on the intricate details, ensuring that your wedding reflects your unique style and love story. With our meticulous planning and creative touch, we transform your vision into a reality, crafting an unforgettable experience for you and your guests."
     },
     {
       "id": 2,
       "name": "Birthday Parties",
       "image": "https://i.ibb.co/X3kSCxm/tender-hydrangea-centerpiece-wine-glasses-blurred-background.jpg",
       "price": "$200 - $1500",
-      "description": "Celebrate birthdays in style with our themed party packages. We arrange everything from invitations and decorations to fun activities and delicious cakes."
+      "description": "Celebrate birthdays in style with our themed party packages. We arrange everything from invitations and decorations to fun activities and delicious cakes.",
+      "detailed_description": "Make your birthday celebration extraordinary with our bespoke party packages. Our creative team collaborates with you to choose a theme that resonates with your personality. We handle all aspects, from designing eye-catching invitations to transforming the venue with elaborate decorations. Our entertainment options cater to all ages, ensuring everyone has a fantastic time. The highlight of our parties is the culinary experience – indulge in delectable cakes, gourmet dishes, and refreshing beverages. With our meticulous planning and attention to detail, your birthday party will be a unique and memorable event for you and your guests."
+
     },
     {
       "id": 3,
       "name": "Anniversaries",
       "image": "https://i.ibb.co/KqsjGD9/white-path-leads-wedding-altar-put-somewhere-mountains.jpg",
       "price": "$300 - $2000",
-      "description": "Commemorate your love story with a memorable anniversary celebration. Our services include elegant decor, gourmet dining, and heartfelt surprises."
+      "description": "Commemorate your love story with a memorable anniversary celebration. Our services include elegant decor, gourmet dining, and heartfelt surprises.",
+      "detailed_description": "Celebrate your enduring love story with an anniversary celebration that reflects your journey together. Our expert team curates an elegant ambiance with timeless decor, setting the stage for a romantic evening. Indulge in a gourmet dining experience crafted by our talented chefs, featuring exquisite dishes and fine wines. We specialize in arranging heartfelt surprises – whether it's a slideshow of cherished memories, live music performances, or personalized gifts, we ensure every moment is filled with love and joy. Let us create an anniversary celebration that honors your relationship and creates new memories for the years to come."
+
     },
     {
       "id": 4,
       "name": "Engagement Parties",
       "image": "https://i.ibb.co/5BGGfVq/man-putting-ring-hand-woman.jpg",
       "price": "$250 - $1800",
-      "description": "Mark the beginning of your journey together with a stylish engagement party. We handle venue arrangements, entertainment, and delightful catering."
+      "description": "Mark the beginning of your journey together with a stylish engagement party. We handle venue arrangements, entertainment, and delightful catering.",
+      "detailed_description": "Embark on the exciting journey to marriage with an engagement party that sets the perfect tone. We meticulously plan every detail, from selecting a venue that exudes charm and sophistication to organizing entertainment that resonates with your style as a couple. Our catering services feature a delightful array of appetizers, gourmet dishes, and signature cocktails that cater to diverse tastes. Whether you prefer a glamorous affair or an intimate gathering, we customize the event to reflect your unique personalities. Let us create an engagement party that captures the essence of your love story and creates beautiful memories with your family and friends."
     },
     {
       "id": 5,
       "name": "Retirement Parties",
       "image": "https://i.ibb.co/J5BZtGW/happy-business-people-opening-bottle-champagne-while-celebrating-office-party.jpg",
       "price": "$150 - $1200",
-      "description": "Bid farewell to a cherished colleague or loved one with a memorable retirement party. We organize heartfelt speeches, entertainment, and customized gifts."
+      "description": "Bid farewell to a cherished colleague or loved one with a memorable retirement party. We organize heartfelt speeches, entertainment, and customized gifts.",
+      "detailed_description": "Celebrate the achievements and legacy of your retiree with a heartfelt retirement party. We coordinate touching speeches and testimonials from colleagues and friends, highlighting their contributions and milestones. Our entertainment options range from live performances to interactive activities that engage guests of all ages. As a token of appreciation, we create personalized gifts that reflect the retiree's passions and accomplishments. Whether it's a formal gathering or a casual affair, we ensure that the event is a fitting tribute to their years of dedication and hard work. Let us craft a retirement party that honors their journey and leaves a lasting impression on everyone present."
+
     },
     {
       "id": 6,
       "name": "Baby Showers",
       "image": "https://i.ibb.co/QMYKVDz/beautiful-baby-shower-concept-with-copy-space.jpg",
       "price": "$150 - $1000",
-      "description": "Welcome the newest member of the family with a joyous baby shower. Our services include adorable themes, games, and delightful treats."
+      "description": "Welcome the newest member of the family with a joyous baby shower. Our services include adorable themes, games, and delightful treats.",
+      "detailed_description": "Celebrate the upcoming arrival of your little one with a baby shower that radiates joy and warmth. Our themed decorations create a charming atmosphere, from whimsical baby animals to elegant florals, tailored to your preferences. Engage your guests with delightful games and activities that celebrate the anticipation of the baby's arrival. Indulge in a delectable spread featuring sweet treats, savory snacks, and refreshing beverages. We ensure every detail, from the color scheme to the party favors, aligns with the chosen theme. Let us plan a baby shower that not only welcomes your baby but also creates cherished memories for you and your loved ones."
+
     },
     {
       "id": 7,
       "name": "Graduation Parties",
       "image": "https://i.ibb.co/5KNZczb/three-happy-international-graduate-friends-greeting-university-campus-graduation-robes-with-diploma.jpg",
       "price": "$200 - $1500",
-      "description": "Celebrate academic achievements with a lively graduation party. We provide themed decorations, music, and a fun-filled atmosphere."
+      "description": "Celebrate academic achievements with a lively graduation party. We provide themed decorations, music, and a fun-filled atmosphere.",
+      "detailed_description": "Acknowledge the hard-earned achievements of your graduate with a vibrant graduation party. Our themed decorations honor their academic journey, creating an inspiring backdrop for celebration. Immerse your guests in an atmosphere filled with lively music, laughter, and camaraderie. We plan engaging activities and games that add to the celebratory spirit, ensuring a memorable experience for everyone. From the graduation cap cake to the thematic decor, every element is thoughtfully designed to reflect the graduate's accomplishments. Let us organize a graduation party that recognizes their dedication and enthusiasm, creating a proud moment for your family and friends."
+
     },
     {
       "id": 8,
       "name": "Holiday Gatherings",
       "image": "https://i.ibb.co/5910Lg0/people-dancing-party-23-2148231993.jpg",
       "price": "$250 - $2000",
-      "description": "Make your holiday season memorable with our festive gathering services. We handle decorations, catering, and entertainment for a joyful celebration."
+      "description": "Make your holiday season memorable with our festive gathering services. We handle decorations, catering, and entertainment for a joyful celebration.",
+        "detailed_description": "Immerse yourself in the enchantment of the holiday season with our bespoke Holiday Gatherings service. Our expert team is dedicated to curating a festive celebration that captures the spirit of joy and togetherness. From intimate family gatherings to grand corporate parties, we tailor our services to meet your specific needs and preferences.\n\n**Enchanting Decorations:** Transform your venue into a winter wonderland with our exquisite decorations. We adorn every corner with twinkling lights, elegant ornaments, and festive centerpieces, creating a warm and inviting atmosphere that evokes the magic of the holidays.\n\n**Gourmet Catering:** Indulge in a culinary journey with our gourmet catering options. Our chefs craft a menu inspired by seasonal flavors, featuring delectable appetizers, hearty main courses, and decadent desserts. Whether you prefer traditional holiday classics or innovative, modern dishes, our catering service ensures a delightful feast for your guests.\n\n**Entertainment Extravaganza:** Mesmerize your guests with our diverse entertainment offerings."
+
+
     }
   ]
   
