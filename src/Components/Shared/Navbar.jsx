@@ -1,5 +1,5 @@
 
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { CiMenuKebab } from "react-icons/ci";
 import { useState } from "react";
 
@@ -13,16 +13,16 @@ const Navbar = () => {
 </>
 
   return (
-    <nav className="px-3 pb-8 shadow-lg">
+    <nav className="px-3 pb-12 shadow-lg ">
         <div className="flex justify-between items-center">
           <h2 className="font-bold text-3xl text-cyan-600">Social Events</h2>
           
             <ul className={`md:flex gap-6 text-center text-white md:text-black md:text-lg bg-zinc-700 md:bg-inherit p-4 rounded-md order-last md:order-none absolute md:static right-7 duration-1000 ${open? 'top-14' : 'hidden'}`}>
               {navLinks}
-              <li className="md:hidden">Login</li>
+              <li className="md:hidden"><Link to='/login'>Login</Link></li>
             </ul>
 
-          <button className="bg-cyan-600 border py-2 px-4 text-lg rounded-sm text-white font-semibold hidden md:inline">Login</button>
+          <Link to='/login' className="bg-cyan-600 border py-2 px-4 text-lg rounded-sm text-white font-semibold hidden md:inline">Login</Link>
           <div onClick={()=>setOpen(!open)} className={`md:hidden order-last md:order-none`}>
               <CiMenuKebab></CiMenuKebab>
           </div>
