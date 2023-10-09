@@ -1,8 +1,9 @@
-# React + Vite
+# Website nname: DreamDayDesigners
+# Live site: 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features:
+* There are six sections in the homepage: navbar, banner, services, planning, customer review and footer.
+* It is connected with the firebase. So user can create accounts using email and password and also using google.
+* If a user doesn't logged in, he/she cannot see the details of the services. Also he won't be able to see 2 private routes named profile and feedback.
+* The website has very attractive animations and it also offers very good social events. It promises to organize the social events perfectly.
+* A logged in user can give his feedback from the feedback option if he has got our services. Also he can see his profile details. When a user is logged in his profile picture is and name is shown at the top.

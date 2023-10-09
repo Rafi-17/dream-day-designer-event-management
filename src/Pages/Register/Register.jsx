@@ -5,6 +5,7 @@ import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import { AuthContext } from "../../Providers/AuthProvider";
 import swal from "sweetalert";
 import { FcGoogle } from "react-icons/fc";
+import Footer from "../../Components/Footer/Footer";
 
 const Register = () => {
   const { register, profileUpdate, setLoading, googleLogin } = useContext(AuthContext);
@@ -74,6 +75,7 @@ const Register = () => {
       <div className="bg-teal-200">
         <Navbar></Navbar>
       </div>
+      <hr />
       <div className="">
         <div className=" space-y-6 w-ful px-4 pt-3 pb-24 rounded-md shadow-xl min-h-[85vh] mx-auto bg-gradient-to-r from-cyan-700 to-cyan-400 flex flex-col">
           <h2 className="text-4xl font-bold mb-8 text-center text-white">
@@ -158,6 +160,8 @@ const Register = () => {
           </form>
         </div>
       </div>
+      <hr />
+      <Footer></Footer>
     </div>
   );
 };

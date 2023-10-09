@@ -9,11 +9,14 @@ import EventDetails from '../Pages/EventDetails/EventDetails';
 import PrivateRoute from './PrivateRoute';
 import Feedback from '../Pages/Feedback/Feedback';
 import Profile from '../Pages/Profile/Profile';
+import ErrorPage from '../Pages/ErrorPage/ErrorPage';
+import Contact from '../Pages/Contact/Contact';
 
 const Router = createBrowserRouter([
     {
         path:'/',
         element: <Root></Root>,
+        errorElement:<ErrorPage></ErrorPage>,
         children:[
             {
                 path:'/',
@@ -23,6 +26,10 @@ const Router = createBrowserRouter([
             {
                 path:'/about',
                 element: <About></About>
+            },
+            {
+                path:'/contact',
+                element: <Contact></Contact>
             },
             {
                 path:'/login',

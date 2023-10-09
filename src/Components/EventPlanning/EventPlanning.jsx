@@ -1,6 +1,6 @@
 const EventPlanning = () => {
   return (
-    <div>
+    <div data-aos='zoom-in' data-aos-achor-placement='center-center'>
         <h2 className="text-4xl font-bold text-center text-cyan-600 mt-16 mb-10">Our Planning</h2>
       <div className="collapse collapse-arrow bg-base-300 py-2">
         <input type="radio" name="my-accordion-3"  />

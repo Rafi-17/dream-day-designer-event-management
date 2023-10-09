@@ -7,7 +7,7 @@ const Review = () => {
     <div>
       <h2 className="text-4xl font-bold text-center mt-20 mb-10">What Customer Say About Us</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-16">
-        <div className="border-2 border-indigo-400 rounded-md p-3 max-w-sm">
+        <div data-aos='slide-right' className="border-2 border-indigo-400 rounded-md p-3 max-w-sm">
           <h2 className="text-center text-2xl font-bold mb-5 text-cyan-600">Client Review</h2>
           <img className="rounded-full mx-auto mb-4" src={c1} alt="" />
           <div className="text-center">
@@ -22,7 +22,7 @@ const Review = () => {
             <h2 className="font-bold text-xl">Kevin De Bruyne</h2>
           </div>
         </div>
-        <div className="border-2 border-indigo-400 rounded-md p-3 max-w-sm">
+        <div data-aos='flip-up' data-aos-anchor-placement='top-center' className="border-2 border-indigo-400 rounded-md p-3 max-w-sm">
           <h2 className="text-center text-2xl font-bold mb-5 text-cyan-600">Client Review</h2>
           <img className="rounded-full mx-auto mb-4 w-56" src={c2} alt="" />
           <div className="text-center">
@@ -37,7 +37,7 @@ const Review = () => {
             <h2 className="font-bold text-xl">Eva Martinez</h2>
           </div>
         </div>
-        <div className="border-2 border-indigo-400 rounded-md p-3 max-w-sm">
+        <div data-aos='slide-left' className="border-2 border-indigo-400 rounded-md p-3 max-w-sm">
           <h2 className="text-center text-2xl font-bold mb-5 text-cyan-600">Client Review</h2>
           <img className="rounded-full mx-auto mb-4 w-56" src={c3} alt="" />
           <div className="text-center">

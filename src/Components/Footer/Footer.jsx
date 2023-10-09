@@ -3,7 +3,7 @@ import { FaFacebookF } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="mt-20">
+    <div className="">
       <footer className="grid grid-cols-2 md:grid-cols-3 p-6 md:p-10  bg-cyan-600 text-white text-lg">
         <nav className="flex flex-col">
           <header className="footer-title">Services</header>
@@ -16,8 +16,8 @@ const Footer = () => {
           <header className="footer-title">Company</header>
           <a className="link link-hover">About us</a>
           <a className="link link-hover">Contact</a>
-          <a className="link link-hover">Jobs</a>
-          <a className="link link-hover">Press kit</a>
+          <a className="link link-hover">Services</a>
+          <a className="link link-hover">Feedback</a>
         </nav>
         <nav className="mt-6 md:mt-0 text-center md:text-left mx-auto col-span-2 md:col-auto">
           <header className="footer-title">Social</header>

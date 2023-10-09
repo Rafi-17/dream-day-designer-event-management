@@ -1,15 +1,17 @@
 import { useContext, useState } from "react";
 import Navbar from "../../Components/Shared/Navbar";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
 import { AuthContext } from "../../Providers/AuthProvider";
 import swal from "sweetalert";
 import { FcGoogle } from "react-icons/fc";
+import Footer from "../../Components/Footer/Footer";
 
 const Login = () => {
   const { login, setLoading, googleLogin } = useContext(AuthContext);
   const [show, setShow] = useState(false);
   const [typed, setTyped] = useState("");
+  const navigate=useNavigate();
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -21,6 +23,7 @@ const Login = () => {
       .then((result) => {
         console.log(result.user);
         swal("Great!", "Logged in successfully", "success");
+        navigate('/');
       })
       .catch((error) => {
         setLoading(false);
@@ -46,8 +49,9 @@ const Login = () => {
       <div className="bg-teal-200">
         <Navbar></Navbar>
       </div>
+        <hr />          
       <div className="">
-        <div className=" space-y-6 w-ful px-4 pt-3 pb-24 rounded-md shadow-xl min-h-[85vh] mx-auto bg-gradient-to-r from-cyan-700 to-cyan-400 flex flex-col">
+        <div className=" space-y-6 w-ful px-4 pt-3 pb-24 rounded-md shadow-xl min-h-[40vh] mx-auto bg-gradient-to-r from-cyan-700 to-cyan-400 flex flex-col">
           <h2 className="text-4xl font-bold mb-8 text-center text-white">
             Please Login
           </h2>
@@ -124,6 +128,8 @@ const Login = () => {
           </form>
         </div>
       </div>
+      <hr />
+      <Footer></Footer>
     </div>
   );
 };

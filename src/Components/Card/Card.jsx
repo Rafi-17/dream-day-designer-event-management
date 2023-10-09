@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
+import PropTypes from 'prop-types';
 
 const Card = ({ event }) => {
   const { id, name, image, price, description } = event;
   return (
-    <div className="border-[6px] border-cyan-700 rounded-lg">
+    <div data-aos='fade-left' className="border-[6px] border-cyan-700 rounded-lg">
       <div
         className="hero max-h-80"
         style={{
@@ -25,3 +26,7 @@ const Card = ({ event }) => {
 };
 
 export default Card;
+
+Card.propTypes = {
+  event: PropTypes.object
+}

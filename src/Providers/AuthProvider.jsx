@@ -1,6 +1,16 @@
 import { createContext, useEffect, useState } from 'react';
 import { GoogleAuthProvider, createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import app from '../firebase/firebase.config';
+import PropTypes from 'prop-types';
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // Import the AOS CSS file for default styles
+
+AOS.init({
+  duration: 1000, // Animation duration
+  once: false, // Whether animation should happen only once - while scrolling down
+  mirror: false, // Whether elements should animate out while scrolling past them
+});
+
 
 export const AuthContext= createContext(null);
 const auth = getAuth(app);
@@ -63,3 +73,7 @@ const AuthProvider = ({children}) => {
 };
 
 export default AuthProvider;
+
+AuthProvider.propTypes = {
+  children: PropTypes.node
+};
